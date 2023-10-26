@@ -9,7 +9,7 @@ export default function Meals() {
     data: loadedMeals,
     isLoading,
     error,
-  } = useHttp('https://node-u4mu.onrender.com//meals', requestConfig, []);
+  } = useHttp('https://node-u4mu.onrender.com/meals', requestConfig, []);
 
   if (isLoading) {
     return <p className="center">Fetching meals...</p>;
