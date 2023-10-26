@@ -14,7 +14,7 @@ export default function MealItem({ meal }) {
   return (
     <li className="meal-item">
       <article>
-        <img src={`https://node-u4mu.onrender.com//${meal.image}`} alt={meal.name} />
+        <img src={`https://node-u4mu.onrender.com/${meal.image}`} alt={meal.name} />
         <div>
           <h3>{meal.name}</h3>
           <p className="meal-item-price">
